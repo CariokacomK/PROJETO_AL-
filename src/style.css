@@ -1,0 +1,33 @@
+header{
+    background-color: #a4c3b2;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 4% 4%;
+    border-bottom: solid 1px #6b9080;
+}   
+
+header h1{
+    padding-right: 29%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-color: #eaf4f4;
+    padding: 0% 25%;
+}
+
+.categorias h1{
+    font-family: "Oswald", sans-serif;
+}
+
+.alt{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
